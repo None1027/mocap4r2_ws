@@ -1,0 +1,82 @@
+[0.006s] Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.071s] -- Detecting C compiler ABI info
+[0.113s] -- Detecting C compiler ABI info - done
+[0.118s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.118s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.164s] -- Detecting CXX compiler ABI info - done
+[0.168s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.168s] -- Detecting CXX compile features
+[0.168s] -- Detecting CXX compile features - done
+[0.169s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.295s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.306s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.328s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.330s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.365s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.411s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.428s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Looking for pthread.h
+[0.504s] -- Looking for pthread.h - found
+[0.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.548s] -- Found Threads: TRUE  
+[0.570s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[0.576s] -- Found mocap4r2_msgs: 0.2.0 (/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.590s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.611s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.651s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[0.651s] -- Configured cppcheck exclude dirs and/or files: 
+[0.651s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.651s] -- Configured cpplint exclude dirs and/or files: 
+[0.651s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.652s] -- Added test 'lint_cmake' to check CMake code style
+[0.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.652s] -- Added test 'uncrustify' to check C / C++ code style
+[0.652s] -- Configured uncrustify additional arguments: 
+[0.652s] -- Added test 'xmllint' to check XML markup files
+[0.653s] -- Configuring done
+[0.659s] -- Generating done
+[0.661s] -- Build files have been written to: /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz
+[0.666s] Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz
+[0.667s] Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz -- -j32 -l32
+[0.700s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[5.660s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[5.741s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[5.751s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[6.984s] [100%] [32m[1mLinking CXX executable mocap4r2_marker_viz[0m
+[7.239s] [100%] Built target mocap4r2_marker_viz
+[7.245s] Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz -- -j32 -l32
+[7.246s] Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz
+[7.251s] -- Install configuration: ""
+[7.251s] -- Execute custom install script
+[7.251s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+[7.256s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+[7.260s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+[7.264s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+[7.268s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+[7.272s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+[7.277s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+[7.281s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+[7.284s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+[7.289s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+[7.294s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+[7.299s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+[7.303s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+[7.307s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+[7.312s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+[7.315s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+[7.320s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+[7.325s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+[7.329s] -- Symlinking: /home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml
+[7.335s] Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz

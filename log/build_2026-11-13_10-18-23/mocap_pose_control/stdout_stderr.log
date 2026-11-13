@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating mocap_pose_control.egg-info
+writing mocap_pose_control.egg-info/PKG-INFO
+writing dependency_links to mocap_pose_control.egg-info/dependency_links.txt
+writing entry points to mocap_pose_control.egg-info/entry_points.txt
+writing requirements to mocap_pose_control.egg-info/requires.txt
+writing top-level names to mocap_pose_control.egg-info/top_level.txt
+writing manifest file 'mocap_pose_control.egg-info/SOURCES.txt'
+reading manifest file 'mocap_pose_control.egg-info/SOURCES.txt'
+writing manifest file 'mocap_pose_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/lib/python3.10/site-packages/mocap-pose-control.egg-link (link to .)
+Installing pose_controller script to /home/taizun/mocap4r2_ws/install/mocap_pose_control/lib/mocap_pose_control
+Installing send_goal script to /home/taizun/mocap4r2_ws/install/mocap_pose_control/lib/mocap_pose_control
+
+Installed /home/taizun/mocap4r2_ws/build/mocap_pose_control
+running symlink_data
+creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/ament_index
+creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/ament_index/resource_index
+creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/ament_index/resource_index/packages
+symbolically linking /home/taizun/mocap4r2_ws/build/mocap_pose_control/resource/mocap_pose_control -> /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/ament_index/resource_index/packages
+symbolically linking /home/taizun/mocap4r2_ws/build/mocap_pose_control/package.xml -> /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/mocap_pose_control
+creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/mocap_pose_control/launch
+symbolically linking /home/taizun/mocap4r2_ws/build/mocap_pose_control/launch/chassis_control.launch.py -> /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/mocap_pose_control/launch
+creating /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/mocap_pose_control/config
+symbolically linking /home/taizun/mocap4r2_ws/build/mocap_pose_control/config/control.yaml -> /home/taizun/mocap4r2_ws/install/mocap_pose_control/share/mocap_pose_control/config

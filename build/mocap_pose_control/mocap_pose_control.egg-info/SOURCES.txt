@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/control.yaml
+launch/chassis_control.launch.py
+mocap_pose_control/__init__.py
+mocap_pose_control/control.py
+mocap_pose_control/controller_node.py
+mocap_pose_control/send_goal.py
+mocap_pose_control.egg-info/PKG-INFO
+mocap_pose_control.egg-info/SOURCES.txt
+mocap_pose_control.egg-info/dependency_links.txt
+mocap_pose_control.egg-info/entry_points.txt
+mocap_pose_control.egg-info/requires.txt
+mocap_pose_control.egg-info/top_level.txt
+mocap_pose_control.egg-info/zip-safe
+resource/mocap_pose_control

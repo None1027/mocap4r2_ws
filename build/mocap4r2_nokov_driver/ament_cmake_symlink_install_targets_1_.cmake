@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/libmocap4r2_nokov_driver.a" "TARGETS" "mocap4r2_nokov_driver" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

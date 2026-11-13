@@ -1,0 +1,18 @@
+[0.397s] Invoking command in '/home/taizun/mocap4r2_ws/build/robokit_control': PYTHONPATH=/home/taizun/mocap4r2_ws/build/robokit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/robokit_control/build --no-deps symlink_data
+[0.510s] running develop
+[0.571s] running egg_info
+[0.571s] writing robokit_control.egg-info/PKG-INFO
+[0.571s] writing dependency_links to robokit_control.egg-info/dependency_links.txt
+[0.572s] writing entry points to robokit_control.egg-info/entry_points.txt
+[0.572s] writing requirements to robokit_control.egg-info/requires.txt
+[0.572s] writing top-level names to robokit_control.egg-info/top_level.txt
+[0.572s] reading manifest file 'robokit_control.egg-info/SOURCES.txt'
+[0.573s] writing manifest file 'robokit_control.egg-info/SOURCES.txt'
+[0.573s] running build_ext
+[0.573s] Creating /home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages/robokit-control.egg-link (link to .)
+[0.574s] Installing robokit_cmd_vel script to /home/taizun/mocap4r2_ws/install/robokit_control/lib/robokit_control
+[0.574s] Installing robokit_tcp script to /home/taizun/mocap4r2_ws/install/robokit_control/lib/robokit_control
+[0.574s] 
+[0.574s] Installed /home/taizun/mocap4r2_ws/build/robokit_control
+[0.574s] running symlink_data
+[0.586s] Invoked command in '/home/taizun/mocap4r2_ws/build/robokit_control' returned '0': PYTHONPATH=/home/taizun/mocap4r2_ws/build/robokit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/robokit_control/build --no-deps symlink_data

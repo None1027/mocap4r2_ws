@@ -1,0 +1,36 @@
+mocap_pose_controller:
+  ros__parameters:
+    rigid_bodies_topic: /rigid_bodies
+    source_frame: map
+    control_frame: mocap_world
+    rate_hz: 30.0
+    pose_timeout: 0.2
+    future_stamp_tolerance: 0.05
+    max_tilt_rad: 0.35
+
+    # T_control_mocap. The control frame uses metres, XY ground plane, Z up.
+    world_rotation_xyzw: [0.0, 0.0, 0.0, 1.0]
+    world_translation_xyz: [0.0, 0.0, 0.0]
+    # T_body_base. Base origin and orientation expressed in the tracked body frame.
+    body_to_base_translation_xyz: [0.0, 0.0, 0.0]
+    body_to_base_rotation_xyzw: [0.0, 0.0, 0.0, 1.0]
+
+    kp_xy: 0.8
+    kp_yaw: 1.2
+    max_linear_speed: 0.2
+    max_angular_speed: 0.08726646259971647
+    max_linear_acceleration: 0.3
+    max_angular_acceleration: 0.8
+    position_tolerance: 0.01
+    yaw_tolerance: 0.017453292519943295
+    settle_time: 0.5
+
+robokit_cmd_vel:
+  ros__parameters:
+    port: 19205
+    rate_hz: 20.0
+    command_timeout: 0.25
+    socket_timeout: 0.2
+    duration_ms: 300
+    max_linear_speed: 0.2
+    max_angular_speed: 0.5

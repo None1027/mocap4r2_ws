@@ -1,0 +1,974 @@
+[0.044s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.044s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77a68c7c9c90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77a68c7c9750>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77a68c7c9750>>, mixin_verb=('build',))
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.107s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.107s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/taizun/mocap4r2_ws'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'ros'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['cmake', 'python']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'cmake'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'python'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extensions ['python_setup_py']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control) by extension 'python_setup_py'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_control/mocap4r2_control' with type 'ros.ament_cmake' and name 'mocap4r2_control'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_control_msgs'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control' with type 'ros.ament_cmake' and name 'rqt_mocap4r2_control'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_dummy_driver) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_dummy_driver' with type 'ros.ament_cmake' and name 'mocap4r2_dummy_driver'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher' with type 'ros.ament_cmake' and name 'mocap4r2_marker_publisher'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz' with type 'ros.ament_cmake' and name 'mocap4r2_marker_viz'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs' with type 'ros.ament_cmake' and name 'mocap4r2_marker_viz_srvs'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt' with type 'ros.ament_cmake' and name 'mocap4r2_robot_gt'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_robot_gt_msgs'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4r2/mocap4r2cli) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4r2/mocap4r2cli' with type 'ros.ament_python' and name 'mocap4r2cli'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap4ros2_nokov/mocap4r2_nokov_driver) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap4ros2_nokov/mocap4r2_nokov_driver' with type 'ros.ament_cmake' and name 'mocap4r2_nokov_driver'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/mocap_msgs) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mocap_msgs' with type 'ros.ament_cmake' and name 'mocap4r2_msgs'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.135s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/taizun/ros_ws/install
+[0.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz_srvs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.151s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_viz_srvs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs', 'symlink_install': True, 'test_result_base': None}
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.151s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_robot_gt_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_control', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_marker_viz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.152s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_marker_viz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz', 'symlink_install': True, 'test_result_base': None}
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_target' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_clean_first' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'cmake_force_configure' from command line to 'False'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'ament_cmake_args' from command line to 'None'
+[0.152s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_robot_gt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_robot_gt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2cli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2cli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2cli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2cli', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2cli', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_dummy_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_dummy_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_dummy_driver', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'mocap4r2_nokov_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'mocap4r2_nokov_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4ros2_nokov/mocap4r2_nokov_driver', 'symlink_install': True, 'test_result_base': None}
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_target' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.153s] Level 5:colcon.colcon_core.verb:set package 'rqt_mocap4r2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.153s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_mocap4r2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control', 'merge_install': False, 'path': '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control', 'symlink_install': True, 'test_result_base': None}
+[0.153s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs' with build type 'ament_cmake'
+[0.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs'
+[0.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.157s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap_msgs' with build type 'ament_cmake'
+[0.157s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap_msgs'
+[0.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.158s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs' with build type 'ament_cmake'
+[0.158s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs'
+[0.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.159s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs' with build type 'ament_cmake'
+[0.159s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs'
+[0.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs
+[0.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs -- -j32 -l32
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs -- -j32 -l32
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs -- -j32 -l32
+[1.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_msgs -- -j32 -l32
+[2.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs -- -j32 -l32
+[2.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs -- -j32 -l32
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs -- -j32 -l32
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs
+[2.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_robot_gt_msgs)
+[2.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt_msgs
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs' for CMake module files
+[2.546s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs' for CMake config files
+[2.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt_msgs', 'cmake_prefix_path')
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.ps1'
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.sh'
+[2.547s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib'
+[2.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt_msgs', 'ld_library_path_lib')
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.ps1'
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.dsv'
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.sh'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/bin'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/pkgconfig/mocap4r2_robot_gt_msgs.pc'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.10/site-packages'
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/bin'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.ps1'
+[2.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.dsv'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.sh'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.bash'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.zsh'
+[2.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/colcon-core/packages/mocap4r2_robot_gt_msgs)
+[2.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_robot_gt_msgs)
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs' for CMake module files
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs' for CMake config files
+[2.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt_msgs', 'cmake_prefix_path')
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.dsv'
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/cmake_prefix_path.sh'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib'
+[2.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt_msgs', 'ld_library_path_lib')
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/hook/ld_library_path_lib.sh'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/bin'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/pkgconfig/mocap4r2_robot_gt_msgs.pc'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.10/site-packages'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/bin'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.ps1'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.sh'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.bash'
+[2.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.zsh'
+[2.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/colcon-core/packages/mocap4r2_robot_gt_msgs)
+[2.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_control_msgs)
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs' for CMake module files
+[2.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_control_msgs
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs' for CMake config files
+[2.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control_msgs', 'cmake_prefix_path')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.dsv'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.sh'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib'
+[2.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control_msgs', 'ld_library_path_lib')
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.sh'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/bin'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib/pkgconfig/mocap4r2_control_msgs.pc'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.10/site-packages'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/bin'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.sh'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.bash'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.zsh'
+[2.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/colcon-core/packages/mocap4r2_control_msgs)
+[2.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_control_msgs)
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs' for CMake module files
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs' for CMake config files
+[2.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control_msgs', 'cmake_prefix_path')
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.dsv'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/cmake_prefix_path.sh'
+[2.698s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib'
+[2.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control_msgs', 'ld_library_path_lib')
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.ps1'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/hook/ld_library_path_lib.sh'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/bin'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib/pkgconfig/mocap4r2_control_msgs.pc'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.10/site-packages'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/bin'
+[2.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.ps1'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.dsv'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.sh'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.bash'
+[2.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.zsh'
+[2.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/colcon-core/packages/mocap4r2_control_msgs)
+[2.700s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control' with build type 'ament_cmake'
+[2.700s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control'
+[2.700s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.700s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.702s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2cli' with build type 'ament_python'
+[2.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2cli', 'ament_prefix_path')
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/ament_prefix_path.ps1'
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/ament_prefix_path.dsv'
+[2.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/ament_prefix_path.sh'
+[2.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_control
+[2.807s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2cli'
+[2.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_viz_srvs)
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs' for CMake module files
+[2.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz_srvs
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs' for CMake config files
+[2.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz_srvs', 'cmake_prefix_path')
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.ps1'
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.dsv'
+[2.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.sh'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib'
+[2.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz_srvs', 'ld_library_path_lib')
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.ps1'
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.dsv'
+[2.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.sh'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/bin'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib/pkgconfig/mocap4r2_marker_viz_srvs.pc'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.10/site-packages'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/bin'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.dsv'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.sh'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.bash'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.zsh'
+[2.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/colcon-core/packages/mocap4r2_marker_viz_srvs)
+[2.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_viz_srvs)
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs' for CMake module files
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs' for CMake config files
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz_srvs', 'cmake_prefix_path')
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.ps1'
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.dsv'
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/cmake_prefix_path.sh'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib'
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz_srvs', 'ld_library_path_lib')
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.ps1'
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.dsv'
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/hook/ld_library_path_lib.sh'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/bin'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib/pkgconfig/mocap4r2_marker_viz_srvs.pc'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib/python3.10/site-packages'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/bin'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.ps1'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.dsv'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.sh'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.bash'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/package.zsh'
+[2.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/share/colcon-core/packages/mocap4r2_marker_viz_srvs)
+[2.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_msgs -- -j32 -l32
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_msgs
+[2.968s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build, clean, dist_info, setopt, bdist, bdist_dumb, upload_docs, easy_install, upload, saveopts, rotate, build_py, install, install_scripts, build_ext, bdist_wheel, install_lib, develop, install_egg_info, register, test, install_headers, build_clib, symlink_data, check, sdist, install_data, alias, bdist_egg, bdist_rpm, build_scripts, egg_info
+[3.093s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --always-copy, --zip-ok, --site-dirs, --verbose, --exclude-scripts, --version, --upgrade, --always-unzip, --uninstall, --quiet, --no-deps, --optimize, --prefix, --script-dir, --multi-version, --egg-path, --local-snapshots-ok, --editable, --no-user-cfg, --install-layout, --dry-run, --find-links, --no-find-links, --user, --install-dir, --index-url, --help, --build-directory, --allow-hosts, --force-installation-into-system-dir, --record
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/mocap4r2cli/build --no-deps symlink_data
+[3.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2cli', 'pythonpath_develop')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/build/mocap4r2cli/share/mocap4r2cli/hook/pythonpath_develop.ps1'
+[3.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/mocap4r2cli/build --no-deps symlink_data
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/build/mocap4r2cli/share/mocap4r2cli/hook/pythonpath_develop.dsv'
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/build/mocap4r2cli/share/mocap4r2cli/hook/pythonpath_develop.sh'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli' for CMake module files
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli' for CMake config files
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli/lib'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli/bin'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli/lib/pkgconfig/mocap4r2cli.pc'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli/lib/python3.10/site-packages'
+[3.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2cli', 'pythonpath')
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/pythonpath.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/pythonpath.dsv'
+[3.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/hook/pythonpath.sh'
+[3.270s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2cli/bin'
+[3.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2cli)
+[3.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/package.ps1'
+[3.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/package.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/package.sh'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/package.bash'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli/package.zsh'
+[3.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2cli/share/colcon-core/packages/mocap4r2cli)
+[3.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_control
+[3.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_control -- -j32 -l32
+[3.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_msgs)
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs' for CMake module files
+[3.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_msgs
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs' for CMake config files
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'cmake_prefix_path')
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.sh'
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib'
+[3.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'ld_library_path_lib')
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.dsv'
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.sh'
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/bin'
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib/pkgconfig/mocap4r2_msgs.pc'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.10/site-packages'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/bin'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.sh'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.bash'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.zsh'
+[3.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/colcon-core/packages/mocap4r2_msgs)
+[3.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_msgs)
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs' for CMake module files
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs' for CMake config files
+[3.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'cmake_prefix_path')
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.dsv'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/cmake_prefix_path.sh'
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib'
+[3.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_msgs', 'ld_library_path_lib')
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.ps1'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.dsv'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/hook/ld_library_path_lib.sh'
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/bin'
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib/pkgconfig/mocap4r2_msgs.pc'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.10/site-packages'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/bin'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.ps1'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.sh'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.bash'
+[3.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.zsh'
+[3.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/share/colcon-core/packages/mocap4r2_msgs)
+[3.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher' with build type 'ament_cmake'
+[3.570s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher'
+[3.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz' with build type 'ament_cmake'
+[3.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz'
+[3.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.573s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt' with build type 'ament_cmake'
+[3.573s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt'
+[3.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher
+[3.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz
+[3.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt
+[4.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher
+[4.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher -- -j32 -l32
+[4.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz
+[4.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz -- -j32 -l32
+[4.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt
+[4.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[6.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher -- -j32 -l32
+[6.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher
+[6.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_publisher)
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher' for CMake module files
+[6.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_publisher
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher' for CMake config files
+[6.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_publisher', 'cmake_prefix_path')
+[6.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.ps1'
+[6.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.dsv'
+[6.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.sh'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/bin'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib/pkgconfig/mocap4r2_marker_publisher.pc'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib/python3.10/site-packages'
+[6.287s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/bin'
+[6.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.ps1'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.dsv'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.sh'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.bash'
+[6.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.zsh'
+[6.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/colcon-core/packages/mocap4r2_marker_publisher)
+[6.288s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_publisher)
+[6.288s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher' for CMake module files
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher' for CMake config files
+[6.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_publisher', 'cmake_prefix_path')
+[6.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.ps1'
+[6.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.dsv'
+[6.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/hook/cmake_prefix_path.sh'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/bin'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib/pkgconfig/mocap4r2_marker_publisher.pc'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/lib/python3.10/site-packages'
+[6.289s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/bin'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.ps1'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.dsv'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.sh'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.bash'
+[6.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/mocap4r2_marker_publisher/package.zsh'
+[6.290s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_publisher/share/colcon-core/packages/mocap4r2_marker_publisher)
+[10.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt -- -j32 -l32
+[10.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt
+[10.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_robot_gt)
+[10.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_robot_gt
+[10.258s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt' for CMake module files
+[10.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt' for CMake config files
+[10.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt', 'cmake_prefix_path')
+[10.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.ps1'
+[10.259s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.dsv'
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.sh'
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib'
+[10.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt', 'ld_library_path_lib')
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.ps1'
+[10.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.dsv'
+[10.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.sh'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/bin'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib/pkgconfig/mocap4r2_robot_gt.pc'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib/python3.10/site-packages'
+[10.261s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/bin'
+[10.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.ps1'
+[10.262s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.dsv'
+[10.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.sh'
+[10.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.bash'
+[10.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.zsh'
+[10.263s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/colcon-core/packages/mocap4r2_robot_gt)
+[10.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_robot_gt)
+[10.263s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt' for CMake module files
+[10.264s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt' for CMake config files
+[10.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt', 'cmake_prefix_path')
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.ps1'
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.dsv'
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/cmake_prefix_path.sh'
+[10.265s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib'
+[10.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_robot_gt', 'ld_library_path_lib')
+[10.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.ps1'
+[10.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.dsv'
+[10.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/hook/ld_library_path_lib.sh'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/bin'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib/pkgconfig/mocap4r2_robot_gt.pc'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/lib/python3.10/site-packages'
+[10.266s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/bin'
+[10.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.ps1'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.dsv'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.sh'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.bash'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/mocap4r2_robot_gt/package.zsh'
+[10.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_robot_gt/share/colcon-core/packages/mocap4r2_robot_gt)
+[10.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz -- -j32 -l32
+[10.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz
+[10.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_viz)
+[10.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz_srvs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz
+[10.907s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz' for CMake module files
+[10.907s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz' for CMake config files
+[10.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz', 'cmake_prefix_path')
+[10.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.ps1'
+[10.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.dsv'
+[10.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.sh'
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib'
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/bin'
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/pkgconfig/mocap4r2_marker_viz.pc'
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/python3.10/site-packages'
+[10.908s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/bin'
+[10.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.ps1'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.sh'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.bash'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.zsh'
+[10.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/colcon-core/packages/mocap4r2_marker_viz)
+[10.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_marker_viz)
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz' for CMake module files
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz' for CMake config files
+[10.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_marker_viz', 'cmake_prefix_path')
+[10.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.ps1'
+[10.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.dsv'
+[10.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/hook/cmake_prefix_path.sh'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/bin'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/pkgconfig/mocap4r2_marker_viz.pc'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/lib/python3.10/site-packages'
+[10.910s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/bin'
+[10.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.ps1'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.sh'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.bash'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.zsh'
+[10.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_marker_viz/share/colcon-core/packages/mocap4r2_marker_viz)
+[11.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_control -- -j32 -l32
+[11.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_control
+[11.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_control)
+[11.671s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control' for CMake module files
+[11.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_control
+[11.671s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control' for CMake config files
+[11.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control', 'cmake_prefix_path')
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.ps1'
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.dsv'
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.sh'
+[11.672s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib'
+[11.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control', 'ld_library_path_lib')
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.ps1'
+[11.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.dsv'
+[11.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.sh'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/bin'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib/pkgconfig/mocap4r2_control.pc'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib/python3.10/site-packages'
+[11.673s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/bin'
+[11.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.ps1'
+[11.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv'
+[11.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.sh'
+[11.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.bash'
+[11.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.zsh'
+[11.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/colcon-core/packages/mocap4r2_control)
+[11.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_control)
+[11.674s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control' for CMake module files
+[11.674s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control' for CMake config files
+[11.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control', 'cmake_prefix_path')
+[11.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.ps1'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.dsv'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/cmake_prefix_path.sh'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib'
+[11.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_control', 'ld_library_path_lib')
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.ps1'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.dsv'
+[11.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/hook/ld_library_path_lib.sh'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/bin'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib/pkgconfig/mocap4r2_control.pc'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib/python3.10/site-packages'
+[11.676s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_control/bin'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.ps1'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.sh'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.bash'
+[11.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/package.zsh'
+[11.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_control/share/colcon-core/packages/mocap4r2_control)
+[11.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_dummy_driver' with build type 'ament_cmake'
+[11.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_dummy_driver'
+[11.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.678s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4ros2_nokov/mocap4r2_nokov_driver' with build type 'ament_cmake'
+[11.678s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4ros2_nokov/mocap4r2_nokov_driver'
+[11.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control' with build type 'ament_cmake'
+[11.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control'
+[11.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver
+[11.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4ros2_nokov/mocap4r2_nokov_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver
+[11.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control
+[12.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control
+[12.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control -- -j32 -l32
+[12.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver
+[12.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver -- -j32 -l32
+[12.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/taizun/mocap4r2_ws/src/mocap4ros2_nokov/mocap4r2_nokov_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver
+[12.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver -- -j32 -l32
+[15.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver -- -j32 -l32
+[15.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver
+[15.995s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_dummy_driver)
+[15.995s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver' for CMake module files
+[15.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_dummy_driver
+[15.996s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver' for CMake config files
+[15.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_dummy_driver', 'cmake_prefix_path')
+[15.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.ps1'
+[15.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.dsv'
+[15.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.sh'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/bin'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib/pkgconfig/mocap4r2_dummy_driver.pc'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib/python3.10/site-packages'
+[15.997s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/bin'
+[15.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.ps1'
+[15.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.dsv'
+[15.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.sh'
+[15.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.bash'
+[15.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.zsh'
+[15.998s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/colcon-core/packages/mocap4r2_dummy_driver)
+[15.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_dummy_driver)
+[15.998s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver' for CMake module files
+[15.998s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver' for CMake config files
+[15.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_dummy_driver', 'cmake_prefix_path')
+[15.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.ps1'
+[15.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.dsv'
+[15.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/hook/cmake_prefix_path.sh'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/bin'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib/pkgconfig/mocap4r2_dummy_driver.pc'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/lib/python3.10/site-packages'
+[15.999s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/bin'
+[15.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.ps1'
+[15.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.dsv'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.sh'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.bash'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.zsh'
+[16.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_dummy_driver/share/colcon-core/packages/mocap4r2_dummy_driver)
+[16.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver -- -j32 -l32
+[16.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver
+[16.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_nokov_driver)
+[16.180s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver' for CMake module files
+[16.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_msgs/local/lib/python3.10/dist-packages:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver
+[16.180s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver' for CMake config files
+[16.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_nokov_driver', 'cmake_prefix_path')
+[16.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.ps1'
+[16.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.dsv'
+[16.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.sh'
+[16.181s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib'
+[16.181s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/bin'
+[16.181s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib/pkgconfig/mocap4r2_nokov_driver.pc'
+[16.181s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib/python3.10/site-packages'
+[16.181s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/bin'
+[16.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.ps1'
+[16.182s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.dsv'
+[16.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.sh'
+[16.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.bash'
+[16.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.zsh'
+[16.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/colcon-core/packages/mocap4r2_nokov_driver)
+[16.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mocap4r2_nokov_driver)
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver' for CMake module files
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver' for CMake config files
+[16.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('mocap4r2_nokov_driver', 'cmake_prefix_path')
+[16.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.ps1'
+[16.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.dsv'
+[16.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/hook/cmake_prefix_path.sh'
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib'
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/bin'
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib/pkgconfig/mocap4r2_nokov_driver.pc'
+[16.183s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/lib/python3.10/site-packages'
+[16.184s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/bin'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.ps1'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.dsv'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.sh'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.bash'
+[16.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/mocap4r2_nokov_driver/package.zsh'
+[16.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/mocap4r2_nokov_driver/share/colcon-core/packages/mocap4r2_nokov_driver)
+[17.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control -- -j32 -l32
+[17.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control
+[17.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_mocap4r2_control)
+[17.255s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control' for CMake module files
+[17.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs:/home/taizun/ros_ws/install/vrpn_client_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control/lib:/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/taizun/mocap4r2_ws/build/rqt_mocap4r2_control
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control' for CMake config files
+[17.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_mocap4r2_control', 'cmake_prefix_path')
+[17.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.ps1'
+[17.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.dsv'
+[17.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.sh'
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib'
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/bin'
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib/pkgconfig/rqt_mocap4r2_control.pc'
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib/python3.10/site-packages'
+[17.257s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/bin'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.ps1'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.dsv'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.sh'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.bash'
+[17.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.zsh'
+[17.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/colcon-core/packages/rqt_mocap4r2_control)
+[17.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_mocap4r2_control)
+[17.258s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control' for CMake module files
+[17.258s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control' for CMake config files
+[17.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_mocap4r2_control', 'cmake_prefix_path')
+[17.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.ps1'
+[17.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.dsv'
+[17.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/hook/cmake_prefix_path.sh'
+[17.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib'
+[17.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/bin'
+[17.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib/pkgconfig/rqt_mocap4r2_control.pc'
+[17.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/lib/python3.10/site-packages'
+[17.259s] Level 1:colcon.colcon_core.environment:checking '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/bin'
+[17.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.ps1'
+[17.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.dsv'
+[17.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.sh'
+[17.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.bash'
+[17.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.zsh'
+[17.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/taizun/mocap4r2_ws/install/rqt_mocap4r2_control/share/colcon-core/packages/rqt_mocap4r2_control)
+[17.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.260s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.260s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taizun/mocap4r2_ws/install/local_setup.ps1'
+[17.261s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/taizun/mocap4r2_ws/install/_local_setup_util_ps1.py'
+[17.261s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taizun/mocap4r2_ws/install/setup.ps1'
+[17.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taizun/mocap4r2_ws/install/local_setup.sh'
+[17.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/taizun/mocap4r2_ws/install/_local_setup_util_sh.py'
+[17.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taizun/mocap4r2_ws/install/setup.sh'
+[17.262s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taizun/mocap4r2_ws/install/local_setup.bash'
+[17.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taizun/mocap4r2_ws/install/setup.bash'
+[17.263s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/taizun/mocap4r2_ws/install/local_setup.zsh'
+[17.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/taizun/mocap4r2_ws/install/setup.zsh'

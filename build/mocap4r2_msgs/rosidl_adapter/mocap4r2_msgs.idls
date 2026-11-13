@@ -1,0 +1,6 @@
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Marker.idl
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Markers.idl
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/ImusInfo.idl
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBody.idl
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBodies.idl
+/home/taizun/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:srv/CreateRigidBody.idl

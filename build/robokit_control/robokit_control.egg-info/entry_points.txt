@@ -1,0 +1,4 @@
+[console_scripts]
+robokit_cmd_vel = robokit_control.robokit_cmd_vel:main
+robokit_tcp = robokit_control.robokit_tcp:main
+

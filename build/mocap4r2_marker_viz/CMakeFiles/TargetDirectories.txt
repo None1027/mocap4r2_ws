@@ -1,0 +1,11 @@
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/uninstall.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz_uninstall.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz_NODE.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/test.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/edit_cache.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/rebuild_cache.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/list_install_components.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/install.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/install/local.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_marker_viz/CMakeFiles/install/strip.dir

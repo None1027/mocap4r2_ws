@@ -1,0 +1,27 @@
+[0.365s] Invoking command in '/home/taizun/mocap4r2_ws/build/robokit_control': PYTHONPATH=/home/taizun/mocap4r2_ws/build/robokit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/robokit_control/build --no-deps symlink_data
+[0.479s] running develop
+[0.537s] running egg_info
+[0.537s] creating robokit_control.egg-info
+[0.537s] writing robokit_control.egg-info/PKG-INFO
+[0.537s] writing dependency_links to robokit_control.egg-info/dependency_links.txt
+[0.537s] writing entry points to robokit_control.egg-info/entry_points.txt
+[0.537s] writing requirements to robokit_control.egg-info/requires.txt
+[0.537s] writing top-level names to robokit_control.egg-info/top_level.txt
+[0.537s] writing manifest file 'robokit_control.egg-info/SOURCES.txt'
+[0.537s] reading manifest file 'robokit_control.egg-info/SOURCES.txt'
+[0.538s] writing manifest file 'robokit_control.egg-info/SOURCES.txt'
+[0.538s] running build_ext
+[0.538s] Creating /home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages/robokit-control.egg-link (link to .)
+[0.539s] Installing robokit_cmd_vel script to /home/taizun/mocap4r2_ws/install/robokit_control/lib/robokit_control
+[0.539s] Installing robokit_tcp script to /home/taizun/mocap4r2_ws/install/robokit_control/lib/robokit_control
+[0.539s] 
+[0.539s] Installed /home/taizun/mocap4r2_ws/build/robokit_control
+[0.539s] running symlink_data
+[0.539s] creating /home/taizun/mocap4r2_ws/install/robokit_control/share/ament_index
+[0.539s] creating /home/taizun/mocap4r2_ws/install/robokit_control/share/ament_index/resource_index
+[0.539s] creating /home/taizun/mocap4r2_ws/install/robokit_control/share/ament_index/resource_index/packages
+[0.539s] symbolically linking /home/taizun/mocap4r2_ws/build/robokit_control/resource/robokit_control -> /home/taizun/mocap4r2_ws/install/robokit_control/share/ament_index/resource_index/packages
+[0.539s] symbolically linking /home/taizun/mocap4r2_ws/build/robokit_control/package.xml -> /home/taizun/mocap4r2_ws/install/robokit_control/share/robokit_control
+[0.539s] symbolically linking /home/taizun/mocap4r2_ws/build/robokit_control/README.md -> /home/taizun/mocap4r2_ws/install/robokit_control/share/robokit_control
+[0.539s] symbolically linking /home/taizun/mocap4r2_ws/build/robokit_control/API_USAGE.md -> /home/taizun/mocap4r2_ws/install/robokit_control/share/robokit_control
+[0.549s] Invoked command in '/home/taizun/mocap4r2_ws/build/robokit_control' returned '0': PYTHONPATH=/home/taizun/mocap4r2_ws/build/robokit_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taizun/mocap4r2_ws/install/robokit_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taizun/mocap4r2_ws/build/robokit_control/build --no-deps symlink_data

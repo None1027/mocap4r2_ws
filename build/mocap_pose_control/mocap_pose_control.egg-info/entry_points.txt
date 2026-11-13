@@ -1,0 +1,4 @@
+[console_scripts]
+pose_controller = mocap_pose_control.controller_node:main
+send_goal = mocap_pose_control.send_goal:main
+

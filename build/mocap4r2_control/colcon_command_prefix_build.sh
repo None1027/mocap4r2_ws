@@ -1,0 +1,2 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/taizun/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.sh"

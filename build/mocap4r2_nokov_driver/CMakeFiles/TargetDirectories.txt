@@ -1,0 +1,11 @@
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/uninstall.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/mocap4r2_nokov_driver_uninstall.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/mocap4r2_nokov_driver.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/mocap4r2_nokov_driver_main.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/test.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/edit_cache.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/rebuild_cache.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/list_install_components.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/install.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/install/local.dir
+/home/taizun/mocap4r2_ws/build/mocap4r2_nokov_driver/CMakeFiles/install/strip.dir
